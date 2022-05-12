@@ -1,0 +1,186 @@
+body{
+    background-image: url(../img/background2.jfif); /* tomado de "https://co.pinterest.com/pin/388787380340230056/"*/
+    background-size: cover;
+}
+.logo{
+    width: 150px;
+}
+.cont{
+background-color: #ffad7d;
+position: fixed;
+    top: 0.1px;
+    z-index: 100;
+}
+.navbar{
+    background-color: #ffad7d;
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+}
+li{
+    margin: 20px;
+    border-style: solid;
+    border-color: rgb(186, 129, 240);
+    background-color: rgb(255, 190, 68); 
+    border-radius: 20px;
+    padding: 8px 15px 10px 15px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+ul :hover{
+    background-color: rgb(198, 156, 236);
+}
+.search{
+    background-color: rgb(198, 156, 236);
+    padding: 2px 150px 2px 4px;
+    border-color: rgb(198, 156, 236);
+}
+.boton{
+    background-color: rgb(186, 129, 240); 
+    border-radius: 12px;
+    border-color: rgb(198, 156, 236);
+}
+td{
+    background-image: linear-gradient(160deg, #ffffb9 0, #ffffb5 8.33%, #ffffb2 16.67%, #fff0ae 25%, #ffdfaa 33.33%, #ffcda4 41.67%, #f2b99d 50%, #daa795 58.33%, #c4988e 66.67%, #b18b87 75%, #a18281 83.33%, #957b7d 91.67%, #8c767a 100%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(107, 61, 61);
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+tr{
+    border-style: solid;
+    border-color: black;
+}
+table{
+    margin: 10px 5px 10px 5px;
+    border-style: solid;
+    border-color: black;
+}
+.col1{
+    width: 100px;
+}
+.col2{
+    width: 100px;
+    text-align: center;
+}
+.col3{
+    width: 900px;
+    height: 10px;
+}
+.col4{
+    text-align: center;
+}
+.pla{
+    width: 100px;
+}
+.btncompras{
+    background-image: linear-gradient(140deg, #fff454 0, #ffe851 8.33%, #ffd950 16.67%, #ffc751 25%, #ffb452 33.33%, #ff9f53 41.67%, #f28953 50%, #de7552 58.33%, #cb6451 66.67%, #bb5751 75%, #ad4c52 83.33%, #a14554 91.67%, #984058 100%);
+    border-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+.btncompras a{
+    text-decoration: none;
+    color: rgb(221, 43, 73);
+    -webkit-text-stroke: 0.25px black;
+}
+.acordion{
+margin-top: 100px;
+}
+.contenedor{
+    position: relative;
+    left: 400px;
+}
+.botonP{
+    background-image: radial-gradient(circle at 37.72% -19.64%, #ffffb6 0, #ffff89 25%, #f2f253 50%, #bcce06 75%, #8bb200 100%);
+}
+.botonN{
+    background-image: radial-gradient(circle at 37.72% -19.64%, #daffb7 0, #dfffa7 7.14%, #e4f996 14.29%, #e8ef85 21.43%, #ebe373 28.57%, #eed561 35.71%, #f0c64e 42.86%, #f2b53c 50%, #f4a32c 57.14%, #f69221 64.29%, #f8801d 71.43%, #fb6d20 78.57%, #fe5a27 85.71%, #ff4431 92.86%, #ff293d 100%);
+}
+.botonA{
+    background-image: linear-gradient(105deg, #fbd3ff 0, #e9c1fc 16.67%, #d3aff7 33.33%, #b99df2 50%, #9a8ded 66.67%, #767fea 83.33%, #4373e6 100%);
+}
+.botonS{
+    background-image: linear-gradient(165deg, #ff9f66 0, #ff9466 12.5%, #ff8362 25%, #ff6e5c 37.5%, #f25353 50%, #e3334c 62.5%, #d70249 75%, #cd004b 87.5%, #c70051 100%);
+}
+.botonSP{
+    background-image: radial-gradient(circle at 37.72% -19.64%, #ffe28f 0, #ffe884 4.55%, #ffed7a 9.09%, #fff271 13.64%, #fff66a 18.18%, #fff965 22.73%, #f5fa62 27.27%, #dbfb62 31.82%, #bffb64 36.36%, #9ff968 40.91%, #78f66f 45.45%, #3cf278 50%, #00ed83 54.55%, #00e992 59.09%, #00e5a3 63.64%, #00e1b5 68.18%, #00ddc9 72.73%, #00d9de 77.27%, #00d6f3 81.82%, #00d3ff 86.36%, #00d0ff 90.91%, #00ceff 95.45%, #00cbff 100%);
+}
+.pok{
+color: rgb(134, 71, 19);
+    font-weight: 1000;
+}
+.nat{
+    color: rgb(37, 35, 8);
+    font-weight: 1000;
+}
+.ani{
+    color: rgb(236, 124, 176);
+    font-weight: 1000;
+}
+.sho{
+    color: rgb(228, 230, 132);
+    font-weight: 1000;
+}
+.spl{
+    color: rgb(134, 17, 145);
+    font-weight: 1000;
+}
+.imgbtn{
+width: 50px;
+margin-left: 100px;
+}
+.imgbtn2{
+width: 40px;
+margin-right: 100px;
+}
+.contt1{
+background-image: url(../img/pokemon_wallpaper.png);
+/* Pokemon_wallpaper. (s. f.). [Ilustración]. pinimg. https://i.pinimg.com/originals/be/c2/04/bec204e648af50f69bc63eb78dd8daa3.png */
+background-size: cover;
+background-repeat: no-repeat;
+}
+.contt2{
+background-image: url(../img/naruto_wallpaper.jpg);
+/* Naruto_wallpaper. (s. f.). [Ilustración]. pinimg. https://i.pinimg.com/originals/4e/12/15/4e1215c322c2098266ff1162b3b94e48.jpg */
+background-size: cover;
+background-repeat: no-repeat;
+}
+.contt3{
+    background-image: url(../img/animalcrossing_wallpaper.png);
+/* AnimalCrossing_wallpaper. (s. f.). [Ilustración]. pinimg. https://i.pinimg.com/originals/33/49/73/334973a9011465526306d27e9c10e960.png */
+background-size: cover;
+background-repeat: no-repeat;
+}
+.contt4{
+background-image: url(../img/shokugeki_wallpaper.jpg);
+/* Shokugeki_wallpaper. (s. f.). [Ilustración]. Wallpaper_better. https://p4.wallpaperbetter.com/wallpaper/854/157/142/shokugeki-no-souma-wallpaper-preview.jpg */
+background-size: cover;
+background-repeat: no-repeat;
+}
+.contt5{
+    background-image: url(../img/Splatoon_wallpaper.jpg);
+    /* Splatoon_wallpaper. (s. f.). [Ilustración]. peakpx. https://w0.peakpx.com/wallpaper/796/822/HD-wallpaper-video-game-splatoon-2-inkling-splatoon.jpg */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer{
+    margin-top: 118px;
+    background-color: #ffad7d;
+    font-weight: 500;
+    padding: 5px 35px 5px 35px;
+    -webkit-text-stroke: 0.75px black;
+    font-family: 'Indie Flower', cursive;
+}
+.copyR{
+    background-color: rgba(224, 28, 165, 0.384);
+    border-radius: 50px;
+}
+.FootImg{
+    width: 50px;
+    border-radius: 20px;
+}

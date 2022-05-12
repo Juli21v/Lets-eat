@@ -1,0 +1,140 @@
+body{
+    background-image: url(../img/background.jpg); /* tomado de "https://es.vividscreen.info/pic/food-texture/25075/"*/
+    background-size: cover;
+}
+.logo{
+    width: 150px;
+}
+.cont{
+background-color: #ffad7d;
+position: fixed;
+    top: 0.1px;
+    z-index: 100;
+}
+.navbar{
+    background-color: #ffad7d;
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+}
+li{
+    margin: 20px;
+    border-style: solid;
+    border-color: rgb(186, 129, 240);
+    background-color: rgb(255, 190, 68); 
+    border-radius: 20px;
+    padding: 8px 15px 10px 15px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+ul :hover{
+    background-color: rgb(198, 156, 236);
+}
+.search{
+    background-color: rgb(198, 156, 236);
+    padding: 2px 150px 2px 4px;
+    border-color: rgb(198, 156, 236);
+}
+.boton{
+    background-color: rgb(186, 129, 240); 
+    border-radius: 12px;
+    border-color: rgb(198, 156, 236);
+}
+.carousel-caption h5 {
+    font-size: 30px;
+    color: #ff158a;
+    font-weight: 600px;
+    background:#ffad7d;
+    border-color: rgb(186, 129, 240);
+    border-style: solid;
+    border-radius: 20px;
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    bottom: 85%;
+    -webkit-text-stroke: 1.5px black;
+    font-family: 'Indie Flower', cursive;
+}
+
+.carousel-caption p {
+    color: #ff158a;
+    background-color: #ffad7d;
+    border-color: rgb(186, 129, 240);
+    border-style: solid;
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 5px 35px 5px 35px;
+    -webkit-text-stroke: 0.75px black;
+    font-family: 'Indie Flower', cursive;
+ }
+
+.carousel-item img {
+    width: 30%;
+    height: 500px;
+    position: relative;
+    left: 450px;
+    border-radius: 20px;
+}
+section{
+    margin-top: 100px;
+}
+.carousel-inner{
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 50px;
+}
+.contQ{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 50px;
+    height: 550px;
+}
+.titu1{
+    position: relative;
+    left: 200px;
+    width: 75%;
+    margin-top: 90px;
+    font-size: 30px;
+    color: #ff158a;
+    background-color: #ffad7d;
+    border-color: rgb(186, 129, 240);
+    border-style: solid;
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 5px 35px 5px 35px;
+    -webkit-text-stroke: 0.75px black;
+    font-family: 'Indie Flower', cursive;
+}
+.parrafo{
+    position: relative;
+    left: 200px;
+    width: 75%;
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
+    background-color: #ffad7d;
+    border-color: rgb(186, 129, 240);
+    border-style: solid;
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 5px 35px 5px 35px;
+    -webkit-text-stroke: 0.75px black;
+    font-family: 'Indie Flower', cursive;
+}
+footer{
+    margin-top: 50px;
+    background-color: #ffad7d;
+    font-weight: 500;
+    padding: 5px 35px 5px 35px;
+    -webkit-text-stroke: 0.75px black;
+    font-family: 'Indie Flower', cursive;
+}
+.copyR{
+    background-color: rgba(224, 28, 165, 0.384);
+    border-radius: 50px;
+}
+.FootImg{
+    width: 50px;
+    border-radius: 20px;
+}
